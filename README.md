@@ -10,5 +10,4 @@ I've worked across enterprise finance, pharmaceutical marketing, and high-visibi
 
 [Portfolio](https://brownrice123.github.io) · [LinkedIn](https://linkedin.com/in/brweiss123) · [Tableau Public](https://public.tableau.com/app/profile/brian.weiss)
 
-# brownrice123.github.io
 Personal portfolio site: [brownrice123.github.io](https://brownrice123.github.io)
