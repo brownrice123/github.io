@@ -112,6 +112,16 @@
       background: var(--card-bg);
     }
 
+    .exp-logo {
+      height: 26px;
+      width: auto;
+      max-width: 120px;
+      object-fit: contain;
+      object-position: left center;
+      display: block;
+      margin-bottom: 0.65rem;
+    }
+
     .exp-company {
       font-size: 0.8rem;
       font-weight: 500;
@@ -378,6 +388,7 @@
       <div class="experience-grid fade fade-4">
 
         <div class="exp-card">
+          <img class="exp-logo" src="logos/GatesVentures.jpg" alt="Gates Ventures" />
           <p class="exp-company">Gates Ventures</p>
           <p class="exp-role">Business Analyst</p>
           <p class="exp-dates">May 2022 &ndash; Nov 2025</p>
@@ -385,6 +396,7 @@
         </div>
 
         <div class="exp-card">
+          <img class="exp-logo" src="logos/JPMorgan_Chase-Logo.wine.svg" alt="J.P. Morgan Chase" />
           <p class="exp-company">J.P. Morgan Chase</p>
           <p class="exp-role">Analytics Solutions Senior Associate</p>
           <p class="exp-dates">Apr 2020 &ndash; May 2022</p>
@@ -392,6 +404,7 @@
         </div>
 
         <div class="exp-card">
+          <img class="exp-logo" src="logos/CMI_Media_Group_Logo_TM_RGB_Purple.jpg" alt="CMI/Compas" />
           <p class="exp-company">CMI/Compas</p>
           <p class="exp-role">Senior Analyst</p>
           <p class="exp-dates">Jun 2018 &ndash; Mar 2020</p>
@@ -399,6 +412,7 @@
         </div>
 
         <div class="exp-card">
+          <img class="exp-logo" src="logos/comcastlogo.png" alt="Comcast" />
           <p class="exp-company">Comcast</p>
           <p class="exp-role">Sr. Data Analyst</p>
           <p class="exp-dates">Feb 2017 &ndash; Apr 2017</p>
@@ -415,6 +429,29 @@
       <div class="projects">
 
         <!-- Primary tier: Tableau dashboards -->
+
+        <!-- Electric Vehicles -->
+        <div class="card card-has-image fade fade-6">
+          <div class="card-thumb">
+            <img
+              src="Tableau-ElectricVehicles.png"
+              alt="Electric Vehicles Tableau dashboard preview"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-tag">Data Visualization &middot; Tableau</p>
+            <h2 class="card-title">Electric Vehicles</h2>
+            <p class="card-desc">
+              <!-- TODO: add description -->
+            </p>
+            <div class="card-links">
+              <a class="link-pill" href="PLACEHOLDER_EV_TABLEAU_URL" target="_blank" rel="noopener">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                View on Tableau Public
+              </a>
+            </div>
+          </div>
+        </div>
 
         <!-- Labor Market Pulse -->
         <div class="card card-has-image fade fade-6">
@@ -530,6 +567,11 @@
         <a class="footer-link" href="https://public.tableau.com/app/profile/brian.weiss" target="_blank" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="10.5" y="2" width="3" height="6" rx="1"/><rect x="10.5" y="16" width="3" height="6" rx="1"/><rect x="2" y="10.5" width="6" height="3" rx="1"/><rect x="16" y="10.5" width="6" height="3" rx="1"/><rect x="3.5" y="3.5" width="3" height="3" rx="0.5"/><rect x="17.5" y="3.5" width="3" height="3" rx="0.5"/><rect x="3.5" y="17.5" width="3" height="3" rx="0.5"/><rect x="17.5" y="17.5" width="3" height="3" rx="0.5"/></svg>
           Tableau Public
+        </a>
+        <span class="footer-divider">&middot;</span>
+        <a class="footer-link" href="Weiss_Brian__Resume__.pdf" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Resume
         </a>
       </nav>
     </footer>
